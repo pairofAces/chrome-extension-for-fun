@@ -8,3 +8,7 @@ let johnSnowImages = [
     "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZGqEUT2BOR3CxdjWwGmoACtFAw7ueOt0BBw&usqp=CAU",
     "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh6W2RSJ3F-x5gRYny3Go9Y6rjSznwf6EehQ&usqp=CAU",
 ];
+
+// create a variable to represent all of the DOM images
+// of the website
+const images = document.getElementsByTagName("img")
