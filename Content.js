@@ -12,3 +12,10 @@ let johnSnowImages = [
 // create a variable to represent all of the DOM images
 // of the website
 const images = document.getElementsByTagName("img")
+
+// initialize a for loop to traverse through the array of "img" tags from 
+// the (images) variable
+for (let i = 0; i < images.length; i++) {
+    const random = Math.floor(Math.random() * johnSnowImages.length);
+    images[i].src = johnSnowImages[random];
+}
