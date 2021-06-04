@@ -19,3 +19,19 @@ for (let i = 0; i < images.length; i++) {
     const random = Math.floor(Math.random() * johnSnowImages.length);
     images[i].src = johnSnowImages[random];
 }
+
+// use for loops to change all the header tags
+const header1 = document.getElementsByTagName("h1")
+for (let i = 0; i < header1.length; i++){
+    header1[i].innerText = "Karan is Awesome"
+}
+
+const header2 = document.getElementsByTagName("h2")
+for (let i = 0; i < header2.length; i++){
+    header2[i].innerText = "Karan is Awesome"
+}
+
+const header3 = document.getElementsByTagName("h3")
+for (let i = 0; i < header3.length; i++){
+    header3[i].innerText = "Karan is Awesome"
+}
